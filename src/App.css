@@ -1,0 +1,33 @@
+.container_calculadora{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.7em;
+    background-color: #ffffff;
+}
+.container_pantalla{
+    height: 180px;
+    flex-grow: 1;
+    padding: 10px;
+}
+.container_botones_cal{
+    flex-grow: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+    margin: 10px 0;
+}
+.container_botonClear{
+    flex-grow: 1;
+    padding: 10px;
+}
